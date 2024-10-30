@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K.WIKI</title>
+</head>
+<body>
+    <h1>JISOO</h1>
+    <div class="con">
+        <button id="more_img" style="background-color: rgb(29, 0, 77); border-radius: 18px; padding-right: 25px; padding-left: 25px;">
+            <p>Ver mais imagens</p>
+        </button>
+
+        <img id="foto" src="jisoo1.jpeg" width="380px">
+        <p>Nome:  Kim Jisoo <br> Nome artistico:  Jisoo. <br> data de nascimento:  03/01/1995 <br> 
+         signo:  Capricórnio <br> Idade:  29 anos <br> Altura:  1,62 <br> Peso:  46Kg <br> nascimento:  Gyeonggi,  (Coreia do Sul)<br> nacionalidade: Sul-Coreana <br> calça: 36-37 <br> gênero sexual:  Mulher. <br> cor favorita:  Roxa. <br> sexualidade: Hétera. <br> namorando: Sim. <br> shippada com: Jennie(Blackpink)<br> fuma: Não<br>  bebe: Não<br> fala: coreano, chinês <br> ocupação: visual, e compositora<br> renda: $25 Milhões<br><br><br> 
+        </p><br><hr><br> <p>vamos listar os pontos emitido pela YG.<br></p>
+        <p>Vocal: 5<br> Dança: 7<br> Rap: 4<br> Visual: 9<br> sem maquiagem: 7<br> corpo: 7<br> linguas: 4 <br> presença: 6<br> fans: 7<br> abilidades: 5<br> compôs: 5<br> estilo de roupa: 7<br><br> juntando todos os pontos: 73 pontos. Estes pontos foram emitidos pela YG entertainment no ano de 2024.<br><br></p>
+        
+        <p style="text-align: center;">Aqui você pode ver imagens ou videos da Jisoo</p>
+    </div>
+    <div class="bootu">
+        <a href="jisoo_pics/jisoo_nomake.html" style="background-color: chartreuse; color: black;">Sem maquiagem</a>
+        <a href="jisoo_pics/jisoo_body.html" style="background-color: rgb(255, 136, 0); color: black;">Corpo e Sex</a>
+        <a href="jisoo_pics/jisoo_smile.html" style="background-color: rgb(0, 187, 194); color: rgb(0, 0, 0);">Sorrindo</a>
+        <a href="jisoo_pics/jisoo_shipping.html" style="background-color: rgb(216, 0, 119); color: black;">Shippada com a jennie</a>
+    </div>
+
+    <a href="../index.html" class="btm_home"><img src="../btm_home.png" width="35"></a>
+    <a href="../idols.html" class="btm_back"><img src="../btm_back.png" width="35"></a>
+     <!--aqui vai o CSS-->
+    <style>
+
+.bootu{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 50px;
+        }
+        .bootu a{
+            margin-left: 10px;
+            transition: 0.8s;
+        }
+        .bootu a:hover{
+            padding: 8px 8px 8px 8px;
+            font-size: 20px;
+            border-radius: 0;
+        }
+
+
+
+.btm_back{
+            border-radius: 40px;
+            background-color: rgb(245, 0, 94);
+            color: rgb(255, 255, 255);
+            padding: 15px;
+            text-decoration: none;
+            transition: 0.4s;
+            float: left;
+            position: fixed;
+            top: 20px;
+            right: 30px;
+        }
+        .btm_back:hover{
+            border-radius: 6px;
+            background-color: rgb(14, 0, 214);
+            color: rgb(255, 255, 255);
+            padding: 20px;
+        }
+
+        .btm_home{
+            border-radius: 40px;
+            background-color: rgb(245, 0, 94);
+            color: rgb(255, 255, 255);
+            padding: 15px;
+            text-decoration: none;
+            transition: 0.4s;
+            float: left;
+            position: fixed;
+            top: 120px;
+            right: 30px;
+        }
+        .btm_home:hover{
+            border-radius: 6px;
+            background-color: rgb(14, 0, 214);
+            color: rgb(255, 255, 255);
+            padding: 20px;
+        }
+
+        body{
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color:  #121212;
+            color: #ffffff;
+        }
+
+
+        h1{
+            margin-top: 10px;
+            font-size: 40px;
+            color: #00ffc3;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            
+        }
+
+        p{
+            margin-top: 10px;
+            font-size: 30px;
+            color: #ffffff;
+            font-family: 'Arial', sans-serif;
+        }
+        h1{
+            font-size: 50px;
+            text-align: center;
+        }
+
+        .con img{
+            float: left;
+            margin: 0px 40px 15px 10px;
+            border-radius: 20px;
+        }
+        a{
+            font-size: 26px;
+            padding: 8px;
+            text-decoration: none;
+            background-color: crimson;
+            border-radius: 15px;
+            color: white;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script>
+
+    //mais imagens do idol
+    const imagens = ["jisoo_pics/jisolin1.jpeg", "jisoo_pics/jisolin2.jpeg", "jisoo_pics/jisolin3.jpeg", "jisoo_pics/jisolin4.jpeg", "jisoo_pics/jisolin5.jpeg", "jisoo_pics/jisolin6.jpeg", "jisoo_pics/jisolin7.jpeg", "jisoo_pics/jisolin8.jpeg", "jisoo_pics/jisolin9.jpeg", "jisoo_pics/jisolin10.jpeg", "jisoo_pics/jisolin11.jpeg", "jisoo_pics/jisolin12.jpeg", "jisoo1.jpeg"];
+    let indiceAtual = 1;
+
+    function clickOn() {
+        indiceAtual = (indiceAtual + 1) % imagens.length;
+        document.getElementById("foto").src = imagens[indiceAtual];
+    }
+    document.getElementById("more_img").addEventListener("click", clickOn);
+
+</script>
+
+</body>
+</html>
