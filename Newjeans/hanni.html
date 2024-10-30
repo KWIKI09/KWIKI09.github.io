@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K.WIKI</title>
+</head>
+<body>
+
+    <h1>Hanni</h1>
+    <div class="con">
+        <button id="more_img" style="background-color: rgb(29, 0, 77); border-radius: 18px; padding-right: 25px; padding-left: 25px;">
+            <p>Ver mais imagens</p>
+        </button>
+        <img id="foto"  src="hanni_pics/hannibe1.jpeg" width="380px">
+        <p>Nome:  Hanni Pham (Phạm Ngọc Hân) <br> Nome artistico:  Hanni(하니). <br> data de nascimento:  06/10/2004 <br> 
+         signo:  Libra <br> Idade:  20 anos <br> Altura:  1,62m <br> Peso:  48Kg <br> nascimento:  Victoria  (Australia)<br> nacionalidade: Vietnamita / Australiana  <br> calça: 35-36 <br> gênero sexual:  Mulher. <br> cor favorita:  verde esmeralda. <br> sexualidade: Bisexual. <br> namorando: Não. <br> shippada com: Danielle(New Jeans)<br> fuma: não<br> bebe: não<br> fala: coreano, inglês e vietnamita <br> ocupação: Vocalista, compositora e it girl<br> renda: $15 Milhões <br><br><br> 
+        </p><br><hr><br> <p>vamos listar os pontos emitido pela Hybe.<br></p>
+        <p>Vocal: 8<br> Dança: 6<br> Rap: 4<br> Visual: 8<br> sem maquiagem: 9<br> corpo: 7<br> linguas: 6 <br> presença: 7<br> fans: 7<br> abilidades: 5<br> compôs: 7<br> estilo de roupa: 6<br><br> juntando todos os pontos: 80 pontos. Estes pontos foram emitidos pela Hybe entertainment no ano de 2024.<br><br></p>
+        <hr>
+
+        <p style="text-align: center;">Aqui você pode ver imagens ou videos da Hanni</p>
+    </div>
+
+        <div class="bootu">
+            <a href="hanni_pics/hanni_nomake.html" style="background-color: chartreuse; color: black;">Sem maquiagem</a>
+            <a href="hanni_pics/hanni_body.html" style="background-color: rgb(255, 136, 0); color: black;">Corpo e Sex</a>
+            <a href="hanni_pics/hanni_smile.html" style="background-color: rgb(0, 187, 194); color: rgb(0, 0, 0);">Sorrindo</a>
+            <a href="hanni_pics/hanni_shipping.html" style="background-color: rgb(216, 0, 119); color: black;">Shippada com a danielle</a>
+        </div>
+    
+    <a href="../index.html" class="btm_home"><img src="../btm_home.png" width="35"></a>
+    <a href="../idols.html" class="btm_back"><img src="../btm_back.png" width="35"></a>
+     <!--aqui vai o CSS-->
+    <style>
+        .bootu{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 50px;
+        }
+        .bootu a{
+            margin-left: 10px;
+            transition: 0.8s;
+        }
+        .bootu a:hover{
+            padding: 8px 8px 8px 8px;
+            font-size: 20px;
+            border-radius: 0;
+        }
+        .btm_back{
+            border-radius: 40px;
+            background-color: rgb(245, 0, 94);
+            color: rgb(255, 255, 255);
+            padding: 15px;
+            text-decoration: none;
+            transition: 0.4s;
+            float: left;
+            position: fixed;
+            top: 20px;
+            right: 30px;
+        }
+        .btm_back:hover{
+            border-radius: 6px;
+            background-color: rgb(14, 0, 214);
+            color: rgb(255, 255, 255);
+            padding: 20px;
+        }
+
+        .btm_home{
+            border-radius: 40px;
+            background-color: rgb(245, 0, 94);
+            color: rgb(255, 255, 255);
+            padding: 15px;
+            text-decoration: none;
+            transition: 0.4s;
+            float: left;
+            position: fixed;
+            top: 120px;
+            right: 30px;
+        }
+        .btm_home:hover{
+            border-radius: 6px;
+            background-color: rgb(14, 0, 214);
+            color: rgb(255, 255, 255);
+            padding: 20px;
+        }
+
+        body{
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color:  #121212;
+            color: #ffffff;
+        }
+
+
+        h1{
+            margin-top: 10px;
+            font-size: 40px;
+            color: #00ffc3;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            
+        }
+
+        p{
+            margin-top: 10px;
+            font-size: 30px;
+            color: #ffffff;
+            font-family: 'Arial', sans-serif;
+        }
+        h1{
+            font-size: 50px;
+            text-align: center;
+        }
+        .con img{
+            float: left;
+            margin: 0px 40px 15px 10px;
+            border-radius: 20px;
+        }
+        a{
+            font-size: 26px;
+            padding: 8px;
+            text-decoration: none;
+            background-color: crimson;
+            border-radius: 15px;
+            color: white;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        
+    </style>
+
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script>
+
+        //mais imagens do idol
+        const imagens = ["hanni_pics/hannibe1.jpeg", "hanni_pics/hannibe2.jpeg", "hanni_pics/hannibe3.jpeg", "hanni_pics/hannibe4.jpeg", "hanni_pics/hannibe5.jpeg", "hanni_pics/hannibe6.jpeg", "hanni_pics/hannibe7.jpeg", "hanni_pics/hannibe8.jpeg", "hanni_pics/hannibe9.jpeg"];
+        let indiceAtual = 1;
+
+        function clickOn() {
+            indiceAtual = (indiceAtual + 1) % imagens.length;
+            document.getElementById("foto").src = imagens[indiceAtual];
+        }
+        document.getElementById("more_img").addEventListener("click", clickOn);
+
+    </script>
+    
+</body>
+</html>
