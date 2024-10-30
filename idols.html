@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groups poit</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        .btm_back{
+            border-radius: 40px;
+            background-color: rgb(25, 0, 245);
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            text-decoration: none;
+            transition: 0.4s;
+            float: left;
+            position: fixed;
+            top: 20px;
+            right: 30px;
+        }
+        .btm_back:hover{
+            border-radius: 6px;
+            background-color: rgb(245, 0, 94);
+            color: rgb(255, 255, 255);
+            padding: 14px;
+        }
+
+        body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1f1f1f, #121212);
+    color: #ffffff;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+    background: #212121;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    color: #00ffc3;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #cccccc;
+}
+
+.grupos {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.mulheres{
+    background: #292929;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    transition: 0.9s;
+}
+.mulheres:hover{
+    box-shadow: 0px 4px 15px 5px #000000;
+}
+
+
+.mulheres h2 {
+    margin: 20px 0;
+    font-size: 30px;
+    color: #ff006a;
+}
+
+.homens {
+    background: #292929;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    transition: 0.9s;
+}
+
+.homens h2 {
+    margin: 20px 0;
+    font-size: 30px;
+    color: #0051ff;
+}
+
+.homens:hover{
+    box-shadow: 0px 4px 15px 5px #000000;
+}
+
+.btn_mulher {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    font-size: 20px;
+    background: #ff00aa;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+.btn_mulher:hover {
+    transform: translateY(-10px) scale(1.05);
+    background: #ff0040;
+    color: #000000;
+    box-shadow: 0px 4px 13px 3px #000000;
+}
+
+.btn_homen {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    font-size: 20px;
+    background: #008cff;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+.btn_homen:hover {
+    transform: translateY(-10px) scale(1.05);
+    background: #2600ff;
+    color: #000000;
+    box-shadow: 0px 4px 10px 2px #000000;
+}
+
+    </style>
+    
+</head>
+<body>
+    <header>
+        <h1>IDOLS WIKI</h1>
+        <p>WIKI dos Idols de Kpop, está faltando muitos idols mas nós já estamos trabalhando sobre</p>
+    </header>
+    <a href="index.html" class="btm_back"><img src="btm_back.png" width="35"></a>
+    <main>
+        <div class="grupos">
+            <div class="mulheres">
+                <h2>BLACKPINK</h2>
+                <a href="Blackpink/jennie.html" class="btn_mulher">Jennie</a>
+                <a href="Blackpink/jisoo.html" class="btn_mulher">Jisoo</a>
+                <a href="Blackpink/rose.html" class="btn_mulher">Rosé</a>
+                <a href="Blackpink/lisa.html" class="btn_mulher">Lisa</a>
+            </div>
+            <div class="homens">
+                <h2>BTS</h2>
+                <a href="Bts/jimin.html" class="btn_homen">Jimin</a>
+                <a href="Bts/v.html" class="btn_homen">V</a>
+                <a href="Bts/rm.html" class="btn_homen">RM</a>
+                <a href="Bts/suga.html" class="btn_homen">Suga</a>
+                <a href="Bts/jungkook.html" class="btn_homen">Jungkook</a>
+                <a href="Bts/jin.html" class="btn_homen">Jin</a>
+                <a href="Bts/jhope.html" class="btn_homen">J-Hope</a>
+            </div>
+            <div class="mulheres">
+                <h2>TWICE</h2>
+                <a href="Twice/chaeyoung.html" class="btn_mulher">Chaeyoung</a>
+                <a href="Twice/dahyun.html" class="btn_mulher">Dahyun</a>
+                <a href="Twice/jeongyeon.html" class="btn_mulher">Jeongyeon</a>
+                <a href="Twice/jihyo.html" class="btn_mulher">Jihyo</a>
+                <a href="Twice/mina.html" class="btn_mulher">Mina</a>
+                <a href="Twice/momo.html" class="btn_mulher">Momo</a>
+                <a href="Twice/nayeon.html" class="btn_mulher">Nayeon</a>
+                <a href="Twice/sana.html" class="btn_mulher">Sana</a>
+                <a href="Twice/tzuyu.html" class="btn_mulher">Tzuyu</a>
+            </div>
+            <div class="homens">
+                <h2>Stray Kids</h2>
+                <a href="straykids/bangchan.html" class="btn_homen">Bang Chan</a>
+                <a href="straykids/changbin.html" class="btn_homen">Chang Bin</a>
+                <a href="straykids/felix.html" class="btn_homen">Felix</a>
+                <a href="straykids/han.html" class="btn_homen">Han</a>
+                <a href="straykids/hyunjin.html" class="btn_homen">Hyunjin</a>
+                <a href="straykids/i-n.html" class="btn_homen">I-N</a>
+                <a href="straykids/leeknow.html" class="btn_homen">Lee Know</a>
+                <a href="straykids/seungmin.html" class="btn_homen">Seungmin</a>
+            </div>
+
+            <div class="mulheres">
+                <h2>ITZY</h2>
+                <a href="itzy/yeji.html" class="btn_mulher">Yeji</a>
+                <a href="itzy/lia.html" class="btn_mulher">Lia</a>
+                <a href="itzy/yuna.html" class="btn_mulher">Yuna</a>
+                <a href="itzy/ryujin.html" class="btn_mulher">Ryujin</a>
+                <a href="itzy/chaeryoung.html" class="btn_mulher">Chaeryeong</a>
+            </div>
+
+            <div class="homens">
+                <h2>EXO</h2>
+                <a href="exo/chen.html" class="btn_homen">Chen</a>
+                <a href="exo/do.html" class="btn_homen">D.O</a>
+                <a href="exo/kai.html" class="btn_homen">Kai</a>
+                <a href="exo/lay.html" class="btn_homen">Lay</a>
+                <a href="exo/sehun.html" class="btn_homen">Sehun</a>
+                <a href="exo/suho.html" class="btn_homen">Suho</a>
+                <a href="exo/xiumin.html" class="btn_homen">Xiumin</a>
+                <a href="exo/baekhyun.html" class="btn_homen">Baekhyun</a>
+                <a href="exo/chanyeol.html" class="btn_homen">Chanyeol</a>
+            </div>
+            <div class="mulheres">
+                <h2>New Jeans</h2>
+                <a href="Newjeans/hanni.html" class="btn_mulher">Hanni</a>
+                <a href="Newjeans/minji.html" class="btn_mulher">Minji</a>
+                <a href="Newjeans/hyein.html" class="btn_mulher">Hyein</a>
+                <a href="Newjeans/haerin.html" class="btn_mulher">Haerin</a>
+                <a href="Newjeans/danielle.html" class="btn_mulher">Danielle</a>
+            </div>
+            <div class="mulheres">
+                <h2>le sserafim</h2>
+                <a href="le sserafim/eunchae.html" class="btn_mulher">Eunchae</a>
+                <a href="le sserafim/kazuha.html" class="btn_mulher">Kazuha</a>
+                <a href="le sserafim/sakura.html" class="btn_mulher">Sakura</a>
+                <a href="le sserafim/yunjin.html" class="btn_mulher">Yunjin</a>
+                <a href="le sserafim/chaewon.html" class="btn_mulher">Chaewon</a>
+            </div>
+        </div>
+    </main>
+    
+
+</body>
+</html>
